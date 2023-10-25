@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+>
+
+<channel>
+	<title>A Bote Pronto</title>
+	<atom:link href="http://www.abpronto.com/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.abpronto.com</link>
+	<description>Tu medio deportivo favorito / Zure gustuko kirol komunikabidea</description>
+	<lastBuildDate>
+	Tue, 04 Jun 2019 11:01:49 +0000	</lastBuildDate>
+	<language>es</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.2</generator>
+
+<image>
+	<url>https://i0.wp.com/www.abpronto.com/wp-content/uploads/2019/03/cropped-Logo-basico-deportes-3-1.png?fit=32%2C32</url>
+	<title>A Bote Pronto</title>
+	<link>http://www.abpronto.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">159915039</site>	<item>
+		<title>Richard Carapaz hace historia en el Giro d&#8217; Italia</title>
+		<link>http://www.abpronto.com/2019/06/richard-carapaz-hace-historia-en-el-giro-d-italia</link>
+				<comments>http://www.abpronto.com/2019/06/richard-carapaz-hace-historia-en-el-giro-d-italia#respond</comments>
+				<pubDate>Tue, 04 Jun 2019 11:01:26 +0000</pubDate>
+		<dc:creator><![CDATA[Ander Martiarena]]></dc:creator>
+				<category><![CDATA[Más deporte]]></category>
+		<category><![CDATA[Carapaz]]></category>
+		<category><![CDATA[Giro d' Italia]]></category>
+		<category><![CDATA[Landa]]></category>
+		<category><![CDATA[Nibali]]></category>
+		<category><![CDATA[Roglic]]></category>
+
+		<guid isPermaLink="false">http://www.abpronto.com/?p=1109</guid>
+				<description><![CDATA[El ecuatoriano Richard Carapaz (Movistar Team) se alzó con el cotizado trofeo del Giro, Nibali fue segundo y la última]]></description>
+						<wfw:commentRss>http://www.abpronto.com/2019/06/richard-carapaz-hace-historia-en-el-giro-d-italia/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1109</post-id>	</item>
+		<item>
+		<title>Chaves vuelve a sentirse ciclista</title>
+		<link>http://www.abpronto.com/2019/05/chaves-vuelve-a-sentirse-ciclista</link>
+				<comments>http://www.abpronto.com/2019/05/chaves-vuelve-a-sentirse-ciclista#respond</comments>
+				<pubDate>Fri, 31 May 2019 15:52:06 +0000</pubDate>
+		<dc:creator><![CDATA[Ander Martiarena]]></dc:creator>
+				<category><![CDATA[Más deporte]]></category>
+		<category><![CDATA[Chaves]]></category>
+		<category><![CDATA[Giro d' Italia]]></category>
+		<category><![CDATA[Lopez]]></category>
+
+		<guid isPermaLink="false">http://www.abpronto.com/?p=1106</guid>
+				<description><![CDATA[El pequeño escalador Johan Esteban Chaves (Mitchelton-Scott) ha ganado la etapa 19 del Giro llegando en solitario a la meta]]></description>
+						<wfw:commentRss>http://www.abpronto.com/2019/05/chaves-vuelve-a-sentirse-ciclista/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1106</post-id>	</item>
+		<item>
+		<title>Cima gana en un final muy emocionante y Ackermann arrebata la maglia ciclamino</title>
+		<link>http://www.abpronto.com/2019/05/cima-gana-en-un-final-muy-emocionante-y-ackermann-arrebata-la-maglia-ciclamino</link>
+				<comments>http://www.abpronto.com/2019/05/cima-gana-en-un-final-muy-emocionante-y-ackermann-arrebata-la-maglia-ciclamino#respond</comments>
+				<pubDate>Thu, 30 May 2019 15:38:40 +0000</pubDate>
+		<dc:creator><![CDATA[Ander Martiarena]]></dc:creator>
+				<category><![CDATA[Más deporte]]></category>
+		<category><![CDATA[Ackermann]]></category>
+		<category><![CDATA[Cima]]></category>
+		<category><![CDATA[Démare]]></category>
+		<category><![CDATA[Giro d' Italia]]></category>
+
+		<guid isPermaLink="false">http://www.abpronto.com/?p=1103</guid>
+				<description><![CDATA[El italiano Damiano Cima (Nippo Vini Fantini) gana la etapa 18 del Giro d´Italia tas haber estado todo el día]]></description>
+						<wfw:commentRss>http://www.abpronto.com/2019/05/cima-gana-en-un-final-muy-emocionante-y-ackermann-arrebata-la-maglia-ciclamino/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1103</post-id>	</item>
+		<item>
+		<title>Arrancan los playoffs</title>
+		<link>http://www.abpronto.com/2019/05/arrancan-los-playoffs</link>
+				<comments>http://www.abpronto.com/2019/05/arrancan-los-playoffs#respond</comments>
+				<pubDate>Wed, 29 May 2019 18:18:50 +0000</pubDate>
+		<dc:creator><![CDATA[Nicolás Quintano]]></dc:creator>
+				<category><![CDATA[Baloncesto]]></category>
+		<category><![CDATA[Barça Lassa]]></category>
+		<category><![CDATA[Liga Endesa]]></category>
+		<category><![CDATA[Real Madrid]]></category>
+
+		<guid isPermaLink="false">http://www.abpronto.com/?p=1099</guid>
+				<description><![CDATA[Mañana, jueves 30 de mayo, los ocho mejores equipos de la Liga Endesa comienzan la lucha para llegar a la]]></description>
+						<wfw:commentRss>http://www.abpronto.com/2019/05/arrancan-los-playoffs/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1099</post-id>	</item>
+		<item>
+		<title>Nans Peters triunfa y Landa recorta tiempo</title>
+		<link>http://www.abpronto.com/2019/05/nans-peters-triunfa-y-landa-recorta-tiempo</link>
+				<comments>http://www.abpronto.com/2019/05/nans-peters-triunfa-y-landa-recorta-tiempo#respond</comments>
+				<pubDate>Wed, 29 May 2019 15:27:21 +0000</pubDate>
+		<dc:creator><![CDATA[Ander Martiarena]]></dc:creator>
+				<category><![CDATA[Más deporte]]></category>
+		<category><![CDATA[Giro d' Italia]]></category>
+		<category><![CDATA[Landa]]></category>
+		<category><![CDATA[Peters]]></category>
+
+		<guid isPermaLink="false">http://www.abpronto.com/?p=1095</guid>
+				<description><![CDATA[El francés del Ag2r-La Mondiale consiguió su primer triunfo como profesional en la decimoséptima etapa del Giro. Landa saltó del]]></description>
+						<wfw:commentRss>http://www.abpronto.com/2019/05/nans-peters-triunfa-y-landa-recorta-tiempo/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1095</post-id>	</item>
+		<item>
+		<title>Ciccone se lleva la etapa y Carapaz es más líder</title>
+		<link>http://www.abpronto.com/2019/05/ciccone-se-lleva-la-etapa-y-carapaz-es-mas-lider</link>
+				<comments>http://www.abpronto.com/2019/05/ciccone-se-lleva-la-etapa-y-carapaz-es-mas-lider#respond</comments>
+				<pubDate>Tue, 28 May 2019 15:46:45 +0000</pubDate>
+		<dc:creator><![CDATA[Ander Martiarena]]></dc:creator>
+				<category><![CDATA[Más deporte]]></category>
+		<category><![CDATA[Carapaz]]></category>
+		<category><![CDATA[Ciccone]]></category>
+		<category><![CDATA[Giro d' Italia]]></category>
+
+		<guid isPermaLink="false">http://www.abpronto.com/?p=1091</guid>
+				<description><![CDATA[El italiano Ciccone gana la etapa al sprint en Ponte Di Legno y Richard Carapaz le mete 1:23 a Roglic]]></description>
+						<wfw:commentRss>http://www.abpronto.com/2019/05/ciccone-se-lleva-la-etapa-y-carapaz-es-mas-lider/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1091</post-id>	</item>
+		<item>
+		<title>Jugadores españoles detenidos por supuestos amaños</title>
+		<link>http://www.abpronto.com/2019/05/jugadores-espanoles-detenidos-por-supuestos-amanos</link>
+				<comments>http://www.abpronto.com/2019/05/jugadores-espanoles-detenidos-por-supuestos-amanos#respond</comments>
+				<pubDate>Tue, 28 May 2019 10:41:39 +0000</pubDate>
+		<dc:creator><![CDATA[Nicolás Quintano]]></dc:creator>
+				<category><![CDATA[Fútbol]]></category>
+		<category><![CDATA[Sin categoría]]></category>
+		<category><![CDATA[futbol]]></category>
+		<category><![CDATA[Getafe]]></category>
+		<category><![CDATA[Liga 123]]></category>
+		<category><![CDATA[liga santander]]></category>
+		<category><![CDATA[valladolid]]></category>
+
+		<guid isPermaLink="false">http://www.abpronto.com/?p=1084</guid>
+				<description><![CDATA[Jugadores de Primera y Segunda División han sido detenidos por la Policía Nacional. Hoy a primera hora de la mañana,]]></description>
+						<wfw:commentRss>http://www.abpronto.com/2019/05/jugadores-espanoles-detenidos-por-supuestos-amanos/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1084</post-id>	</item>
+		<item>
+		<title>Resumen del fin de semana en el Giro d&#8217; Italia</title>
+		<link>http://www.abpronto.com/2019/05/resumen-del-fin-de-semana-en-el-giro-d-italia</link>
+				<comments>http://www.abpronto.com/2019/05/resumen-del-fin-de-semana-en-el-giro-d-italia#respond</comments>
+				<pubDate>Tue, 28 May 2019 10:30:59 +0000</pubDate>
+		<dc:creator><![CDATA[Ander Martiarena]]></dc:creator>
+				<category><![CDATA[Más deporte]]></category>
+		<category><![CDATA[Giro d' Italia]]></category>
+
+		<guid isPermaLink="false">http://www.abpronto.com/?p=1082</guid>
+				<description><![CDATA[El sábado la gran etapa de alta montaña supuso el cambio de la maglia rosa en favor de Richard Carapaz]]></description>
+						<wfw:commentRss>http://www.abpronto.com/2019/05/resumen-del-fin-de-semana-en-el-giro-d-italia/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1082</post-id>	</item>
+		<item>
+		<title>Frenazo al Atlético y renovación hasta el 2021 con la Real</title>
+		<link>http://www.abpronto.com/2019/05/frenazo-al-atletico-y-renovacion-hasta-el-2021-con-la-real</link>
+				<comments>http://www.abpronto.com/2019/05/frenazo-al-atletico-y-renovacion-hasta-el-2021-con-la-real#respond</comments>
+				<pubDate>Sun, 26 May 2019 12:32:05 +0000</pubDate>
+		<dc:creator><![CDATA[Iker Castaño]]></dc:creator>
+				<category><![CDATA[Fútbol]]></category>
+		<category><![CDATA[Nahikari]]></category>
+		<category><![CDATA[Real Sociedad femenina]]></category>
+		<category><![CDATA[Renovación]]></category>
+
+		<guid isPermaLink="false">http://www.abpronto.com/?p=1079</guid>
+				<description><![CDATA[Se llevaba esperando días la &#171;noticia&#187; desde los despachos del club txuri urdin, y hoy, por fin, se ha dado.]]></description>
+						<wfw:commentRss>http://www.abpronto.com/2019/05/frenazo-al-atletico-y-renovacion-hasta-el-2021-con-la-real/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1079</post-id>	</item>
+		<item>
+		<title>Fin de curso&#8230; ¿y ahora qué?</title>
+		<link>http://www.abpronto.com/2019/05/fin-de-curso-y-ahora-que</link>
+				<comments>http://www.abpronto.com/2019/05/fin-de-curso-y-ahora-que#respond</comments>
+				<pubDate>Sat, 25 May 2019 08:11:40 +0000</pubDate>
+		<dc:creator><![CDATA[Iker Castaño]]></dc:creator>
+				<category><![CDATA[Radio]]></category>
+		<category><![CDATA[deporte]]></category>
+		<category><![CDATA[fin de curso]]></category>
+		<category><![CDATA[programas]]></category>
+		<category><![CDATA[radio]]></category>
+
+		<guid isPermaLink="false">http://www.abpronto.com/?p=1073</guid>
+				<description><![CDATA[El jueves fue el último día del curso 18-19. Con ello se grabó el último programa de la temporada, analizando]]></description>
+						<wfw:commentRss>http://www.abpronto.com/2019/05/fin-de-curso-y-ahora-que/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1073</post-id>	</item>
+	</channel>
+</rss>
