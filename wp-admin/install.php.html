@@ -1,126 +1,380 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
-<!-- Copied from http://www.abpronto.com/wp-admin/install.php by Cyotek WebCopy 1.7.0.600, viernes, 13 de septiembre de 2019, 7:42:21 -->
-<head>
-	<meta name="viewport" content="width=device-width">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta name="robots" content="noindex,nofollow">
-	<title>Instalación de WordPress</title>
-	<link rel='stylesheet' id='buttons-css' href='../wp-includes/css/buttons.min.css?ver=5.1.2' type='text/css' media='all'>
-<link rel='stylesheet' id='install-css' href='css/install.min.css?ver=5.1.2' type='text/css' media='all'>
-<link rel='stylesheet' id='dashicons-css' href='../wp-includes/css/dashicons.min.css?ver=5.1.2' type='text/css' media='all'>
-</head>
-<body class="wp-core-ui">
-<p id="logo"><a href="https://es.wordpress.org/">WordPress</a></p>
+  <!-- Copied from http://www.abpronto.com/wp-admin/install.php by Cyotek WebCopy 1.7.0.600, viernes, 13 de septiembre de 2019, 7:42:21 -->
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>Instalación de WordPress</title>
+    <link
+      rel="stylesheet"
+      id="buttons-css"
+      href="../wp-includes/css/buttons.min.css?ver=5.1.2"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="install-css"
+      href="css/install.min.css?ver=5.1.2"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="dashicons-css"
+      href="../wp-includes/css/dashicons.min.css?ver=5.1.2"
+      type="text/css"
+      media="all"
+    />
+  </head>
+  <body class="wp-core-ui">
+    <p id="logo"><a href="https://es.wordpress.org/">WordPress</a></p>
 
-	<h1>Hola</h1>
-<p>¡Bienvenido al famoso proceso de instalación de WordPress en cinco minutos! Simplemente completa la información siguiente y estarás a punto de usar la más enriquecedora y potente plataforma de publicación personal del mundo.</p>
+    <h1>Hola</h1>
+    <p>
+      ¡Bienvenido al famoso proceso de instalación de WordPress en cinco
+      minutos! Simplemente completa la información siguiente y estarás a punto
+      de usar la más enriquecedora y potente plataforma de publicación personal
+      del mundo.
+    </p>
 
-<h2>Información necesaria</h2>
-<p>Por favor, debes facilitarnos los siguientes datos. No te preocupes, siempre podrás cambiar estos ajustes más tarde.</p>
+    <h2>Información necesaria</h2>
+    <p>
+      Por favor, debes facilitarnos los siguientes datos. No te preocupes,
+      siempre podrás cambiar estos ajustes más tarde.
+    </p>
 
-		<form id="setup" method="post" action="install.php?step=2" novalidate="novalidate">
-	<table class="form-table">
-		<tr>
-			<th scope="row"><label for="weblog_title">Título del sitio</label></th>
-			<td><input name="weblog_title" type="text" id="weblog_title" size="25" value=""></td>
-		</tr>
-		<tr>
-			<th scope="row"><label for="user_login">Nombre de usuario</label></th>
-			<td>
-							<input name="user_name" type="text" id="user_login" size="25" value="">
-				<p>Los nombres de usuario pueden tener únicamente caracteres alfanuméricos, espacios, guiones bajos, guiones medios, puntos y el símbolo @.</p>
-							</td>
-		</tr>
-				<tr class="form-field form-required user-pass1-wrap">
-			<th scope="row">
-				<label for="pass1">
-					Contraseña				</label>
-			</th>
-			<td>
-				<div class="">
-										<input type="password" name="admin_password" id="pass1" class="regular-text" autocomplete="off" data-reveal="1" data-pw=")Ttrc3b^7tt4eGC1#s" aria-describedby="pass-strength-result">
-					<button type="button" class="button wp-hide-pw hide-if-no-js" data-start-masked="0" data-toggle="0" aria-label="Ocultar contraseña">
-						<span class="dashicons dashicons-hidden"></span>
-						<span class="text">Ocultar</span>
-					</button>
-					<div id="pass-strength-result" aria-live="polite"></div>
-				</div>
-				<p><span class="description important hide-if-no-js">
-				<strong>Importante:</strong>
-								Necesitas esta contraseña para acceder. Por favor, guárdala en un lugar seguro.</span></p>
-			</td>
-		</tr>
-		<tr class="form-field form-required user-pass2-wrap hide-if-js">
-			<th scope="row">
-				<label for="pass2">Confirmar Contraseña					<span class="description">(obligatorio)</span>
-				</label>
-			</th>
-			<td>
-				<input name="admin_password2" type="password" id="pass2" autocomplete="off">
-			</td>
-		</tr>
-		<tr class="pw-weak">
-			<th scope="row">Confirma la contraseña</th>
-			<td>
-				<label>
-					<input type="checkbox" name="pw_weak" class="pw-checkbox">
-					Confirma el uso de una contraseña débil.				</label>
-			</td>
-		</tr>
-				<tr>
-			<th scope="row"><label for="admin_email">Tu correo electrónico</label></th>
-			<td><input name="admin_email" type="email" id="admin_email" size="25" value="">
-			<p>Comprueba bien tu dirección de correo electrónico antes de continuar.</p></td>
-		</tr>
-		<tr>
-			<th scope="row">Visibilidad en los motores de búsqueda</th>
-			<td>
-				<fieldset>
-					<legend class="screen-reader-text"><span>Visibilidad en los motores de búsqueda </span></legend>
-											<label for="blog_public"><input name="blog_public" type="checkbox" id="blog_public" value="0">
-						Disuade a los motores de búsqueda de indexar este sitio</label>
-						<p class="description">Depende de los motores de búsqueda atender esta petición o no.</p>
-									</fieldset>
-			</td>
-		</tr>
-	</table>
-	<p class="step"><input type="submit" name="Submit" id="submit" class="button button-large" value="Instalar WordPress"></p>
-	<input type="hidden" name="language" value="">
-</form>
-	<script type="text/javascript">var t = document.getElementById('weblog_title'); if (t){ t.focus(); }</script>
-	<script type='text/javascript' src='../wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
-<script type='text/javascript' src='../wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var _zxcvbnSettings = {"src":"http:\/\/www.abpronto.com\/wp-includes\/js\/zxcvbn.min.js"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='../wp-includes/js/zxcvbn-async.min.js?ver=1.0'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var pwsL10n = {"unknown":"Fortaleza de contrase\u00f1a desconocida","short":"Muy d\u00e9bil","bad":"D\u00e9bil","good":"Medio","strong":"Fuerte","mismatch":"No coinciden"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='js/password-strength-meter.min.js?ver=5.1.2'></script>
-<script type='text/javascript' src='../wp-includes/js/underscore.min.js?ver=1.8.3'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
-/* ]]> */
-</script>
-<script type='text/javascript' src='../wp-includes/js/wp-util.min.js?ver=5.1.2'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var userProfileL10n = {"warn":"Tu contrase\u00f1a no se ha guardado.","warnWeak":"Confirma el uso de una contrase\u00f1a d\u00e9bil.","show":"Mostrar","hide":"Ocultar","cancel":"Cancelar","ariaShow":"Mostrar contrase\u00f1a","ariaHide":"Ocultar contrase\u00f1a"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='js/user-profile.min.js?ver=5.1.2'></script>
-<script type="text/javascript">
-jQuery( function( $ ) {
-	$( '.hide-if-no-js' ).removeClass( 'hide-if-no-js' );
-} );
-</script>
-<div style="text-align: right;position: fixed;z-index:9999999;bottom: 0;width: auto;right: 1%;cursor: pointer;line-height: 0;display:block !important;"><a title="Hosted on free web hosting 000webhost.com. Host your own website for FREE." target="_blank" href="https://www.000webhost.com/?utm_source=000webhostapp&utm_campaign=000_logo&utm_medium=website&utm_content=footer_img"><img src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png" alt="www.000webhost.com"></a></div><script>function getCookie(e){for(var t=e+"=",n=decodeURIComponent(document.cookie).split(";"),o=0;o<n.length;o++){for(var i=n[o];" "==i.charAt(0);)i=i.substring(1);if(0==i.indexOf(t))return i.substring(t.length,i.length)}return""}getCookie("hostinger")&&(document.cookie="hostinger=;expires=Thu, 01 Jan 1970 00:00:01 GMT;",location.reload());var notification=document.getElementsByClassName("notice notice-success is-dismissible"),hostingerLogo=document.getElementsByClassName("hlogo"),mainContent=document.getElementsByClassName("notice_content")[0],newList=["Powerful and Easy-To-Use Control Panel.","1-Click Auto Installer and 24/7 Live Support.","Free Domain, Email and SSL Bundle.","5x faster WordPress performance","Weekly Backups and Fast Response Time."];if(notification.length>0&&null!=mainContent){var googleFont=document.createElement("link");googleFontHref=document.createAttribute("href"),googleFontRel=document.createAttribute("rel"),googleFontHref.value="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600",googleFontRel.value="stylesheet",googleFont.setAttributeNode(googleFontHref),googleFont.setAttributeNode(googleFontRel);var css="@media only screen and (max-width: 768px) {.web-hosting-90-off-image-wrapper {position: absolute;} .notice_content {justify-content: center;} .web-hosting-90-off-image {opacity: 0.3;}} @media only screen and (min-width: 769px) {.notice_content {justify-content: space-between;} .web-hosting-90-off-image-wrapper {padding: 0 5%}} .content-wrapper {z-index: 5} .notice_content {display: flex; align-items: center;} * {-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;} .upgrade_button_red_sale{border: 0; border-radius: 3px; background-color: #ff123a !important; padding: 15px 55px !important; margin-left: 30px; font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 600; color: #ffffff;} .upgrade_button_red_sale:hover{color: #ffffff !important; background: #d10303 !important;}",style=document.createElement("style"),sheet=window.document.styleSheets[0];style.styleSheet?style.styleSheet.cssText=css:style.appendChild(document.createTextNode(css)),document.getElementsByTagName("head")[0].appendChild(style),document.getElementsByTagName("head")[0].appendChild(googleFont);var button=document.getElementsByClassName("upgrade_button_red")[0],link=button.parentElement;link.setAttribute("href","https://www.hostinger.com/hosting-starter-offer?utm_source=000webhost&utm_medium=panel&utm_campaign=000-wp"),link.innerHTML='<button class="upgrade_button_red_sale">TRANSFER NOW</button>',(notification=notification[0]).setAttribute("style","padding-bottom: 10px; padding-top: 5px; background-image: url(https://cdn.000webhost.com/000webhost/promotions/springsale/mountains-neon-background.jpg); background-color: #000000; background-size: cover; background-repeat: no-repeat; color: #ffffff; border-color: #ff123a; border-width: 8px;"),notification.className="notice notice-error is-dismissible",(hostingerLogo=hostingerLogo[0]).setAttribute("src","https://cdn.000webhost.com/000webhost/promotions/springsale/logo-hostinger-white.svg"),hostingerLogo.setAttribute("style","float: none !important; height: auto; max-width: 100%; margin: 40px 20px 10px 30px;");var h1Tag=notification.getElementsByTagName("H1")[0];h1Tag.remove();var paragraph=notification.getElementsByTagName("p")[0];paragraph.innerHTML="Fast & Secure Web Hosting. <br>Limited time offer: get an SSL certificate for FREE",paragraph.setAttribute("style",'max-width: 600px; margin-left: 30px; font-family: "Open Sans", sans-serif; font-size: 16px; font-weight: 600;');var list=notification.getElementsByTagName("UL")[0];list.setAttribute("style","max-width: 675px;");for(var listElements=list.getElementsByTagName("LI"),i=0;i<newList.length;i++)listElements[i].setAttribute("style","color:#ffffff; list-style-type: disc; margin-left: 30px; font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 300; line-height: 1.5;"),listElements[i].innerHTML=newList[i];listElements[listElements.length-1].remove();var org_html=mainContent.innerHTML,new_html='<div class="content-wrapper">'+mainContent.innerHTML+'</div><div class="web-hosting-90-off-image-wrapper"><img class="web-hosting-90-off-image" src="https://cdn.000webhost.com/000webhost/promotions/springsale/web-hosting-90-off.png"></div>';mainContent.innerHTML=new_html;var saleImage=mainContent.getElementsByClassName("web-hosting-90-off-image")[0]}</script></body>
-<!-- Copied from http://www.abpronto.com/wp-admin/install.php by Cyotek WebCopy 1.7.0.600, viernes, 13 de septiembre de 2019, 7:42:21 -->
+    <form
+      id="setup"
+      method="post"
+      action="install.php?step=2"
+      novalidate="novalidate"
+    >
+      <table class="form-table">
+        <tr>
+          <th scope="row">
+            <label for="weblog_title">Título del sitio</label>
+          </th>
+          <td>
+            <input
+              name="weblog_title"
+              type="text"
+              id="weblog_title"
+              size="25"
+              value=""
+            />
+          </td>
+        </tr>
+        <tr>
+          <th scope="row"><label for="user_login">Nombre de usuario</label></th>
+          <td>
+            <input
+              name="user_name"
+              type="text"
+              id="user_login"
+              size="25"
+              value=""
+            />
+            <p>
+              Los nombres de usuario pueden tener únicamente caracteres
+              alfanuméricos, espacios, guiones bajos, guiones medios, puntos y
+              el símbolo @.
+            </p>
+          </td>
+        </tr>
+        <tr class="form-field form-required user-pass1-wrap">
+          <th scope="row">
+            <label for="pass1"> Contraseña </label>
+          </th>
+          <td>
+            <div class="">
+              <input
+                type="password"
+                name="admin_password"
+                id="pass1"
+                class="regular-text"
+                autocomplete="off"
+                data-reveal="1"
+                data-pw=")Ttrc3b^7tt4eGC1#s"
+                aria-describedby="pass-strength-result"
+              />
+              <button
+                type="button"
+                class="button wp-hide-pw hide-if-no-js"
+                data-start-masked="0"
+                data-toggle="0"
+                aria-label="Ocultar contraseña"
+              >
+                <span class="dashicons dashicons-hidden"></span>
+                <span class="text">Ocultar</span>
+              </button>
+              <div id="pass-strength-result" aria-live="polite"></div>
+            </div>
+            <p>
+              <span class="description important hide-if-no-js">
+                <strong>Importante:</strong>
+                Necesitas esta contraseña para acceder. Por favor, guárdala en
+                un lugar seguro.</span
+              >
+            </p>
+          </td>
+        </tr>
+        <tr class="form-field form-required user-pass2-wrap hide-if-js">
+          <th scope="row">
+            <label for="pass2"
+              >Confirmar Contraseña
+              <span class="description">(obligatorio)</span>
+            </label>
+          </th>
+          <td>
+            <input
+              name="admin_password2"
+              type="password"
+              id="pass2"
+              autocomplete="off"
+            />
+          </td>
+        </tr>
+        <tr class="pw-weak">
+          <th scope="row">Confirma la contraseña</th>
+          <td>
+            <label>
+              <input type="checkbox" name="pw_weak" class="pw-checkbox" />
+              Confirma el uso de una contraseña débil.
+            </label>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">
+            <label for="admin_email">Tu correo electrónico</label>
+          </th>
+          <td>
+            <input
+              name="admin_email"
+              type="email"
+              id="admin_email"
+              size="25"
+              value=""
+            />
+            <p>
+              Comprueba bien tu dirección de correo electrónico antes de
+              continuar.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">Visibilidad en los motores de búsqueda</th>
+          <td>
+            <fieldset>
+              <legend class="screen-reader-text">
+                <span>Visibilidad en los motores de búsqueda </span>
+              </legend>
+              <label for="blog_public"
+                ><input
+                  name="blog_public"
+                  type="checkbox"
+                  id="blog_public"
+                  value="0"
+                />
+                Disuade a los motores de búsqueda de indexar este sitio</label
+              >
+              <p class="description">
+                Depende de los motores de búsqueda atender esta petición o no.
+              </p>
+            </fieldset>
+          </td>
+        </tr>
+      </table>
+      <p class="step">
+        <input
+          type="submit"
+          name="Submit"
+          id="submit"
+          class="button button-large"
+          value="Instalar WordPress"
+        />
+      </p>
+      <input type="hidden" name="language" value="" />
+    </form>
+    <script type="text/javascript">
+      var t = document.getElementById("weblog_title");
+      if (t) {
+        t.focus();
+      }
+    </script>
+    <script
+      type="text/javascript"
+      src="../wp-includes/js/jquery/jquery.js?ver=1.12.4"
+    ></script>
+    <script
+      type="text/javascript"
+      src="../wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1"
+    ></script>
+    <script type="text/javascript">
+      /* <![CDATA[ */
+      var _zxcvbnSettings = {
+        src: "http:\/\/www.abpronto.com\/wp-includes\/js\/zxcvbn.min.js",
+      };
+      /* ]]> */
+    </script>
+    <script
+      type="text/javascript"
+      src="../wp-includes/js/zxcvbn-async.min.js?ver=1.0"
+    ></script>
+    <script type="text/javascript">
+      /* <![CDATA[ */
+      var pwsL10n = {
+        unknown: "Fortaleza de contrase\u00f1a desconocida",
+        short: "Muy d\u00e9bil",
+        bad: "D\u00e9bil",
+        good: "Medio",
+        strong: "Fuerte",
+        mismatch: "No coinciden",
+      };
+      /* ]]> */
+    </script>
+    <script
+      type="text/javascript"
+      src="js/password-strength-meter.min.js?ver=5.1.2"
+    ></script>
+    <script
+      type="text/javascript"
+      src="../wp-includes/js/underscore.min.js?ver=1.8.3"
+    ></script>
+    <script type="text/javascript">
+      /* <![CDATA[ */
+      var _wpUtilSettings = { ajax: { url: "\/wp-admin\/admin-ajax.php" } };
+      /* ]]> */
+    </script>
+    <script
+      type="text/javascript"
+      src="../wp-includes/js/wp-util.min.js?ver=5.1.2"
+    ></script>
+    <script type="text/javascript">
+      /* <![CDATA[ */
+      var userProfileL10n = {
+        warn: "Tu contrase\u00f1a no se ha guardado.",
+        warnWeak: "Confirma el uso de una contrase\u00f1a d\u00e9bil.",
+        show: "Mostrar",
+        hide: "Ocultar",
+        cancel: "Cancelar",
+        ariaShow: "Mostrar contrase\u00f1a",
+        ariaHide: "Ocultar contrase\u00f1a",
+      };
+      /* ]]> */
+    </script>
+    <script
+      type="text/javascript"
+      src="js/user-profile.min.js?ver=5.1.2"
+    ></script>
+    <script type="text/javascript">
+      jQuery(function ($) {
+        $(".hide-if-no-js").removeClass("hide-if-no-js");
+      });
+    </script>
+    <script>
+      function getCookie(e) {
+        for (
+          var t = e + "=",
+            n = decodeURIComponent(document.cookie).split(";"),
+            o = 0;
+          o < n.length;
+          o++
+        ) {
+          for (var i = n[o]; " " == i.charAt(0); ) i = i.substring(1);
+          if (0 == i.indexOf(t)) return i.substring(t.length, i.length);
+        }
+        return "";
+      }
+      getCookie("hostinger") &&
+        ((document.cookie =
+          "hostinger=;expires=Thu, 01 Jan 1970 00:00:01 GMT;"),
+        location.reload());
+      var notification = document.getElementsByClassName(
+          "notice notice-success is-dismissible"
+        ),
+        hostingerLogo = document.getElementsByClassName("hlogo"),
+        mainContent = document.getElementsByClassName("notice_content")[0],
+        newList = [
+          "Powerful and Easy-To-Use Control Panel.",
+          "1-Click Auto Installer and 24/7 Live Support.",
+          "Free Domain, Email and SSL Bundle.",
+          "5x faster WordPress performance",
+          "Weekly Backups and Fast Response Time.",
+        ];
+      if (notification.length > 0 && null != mainContent) {
+        var googleFont = document.createElement("link");
+        (googleFontHref = document.createAttribute("href")),
+          (googleFontRel = document.createAttribute("rel")),
+          (googleFontHref.value =
+            "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"),
+          (googleFontRel.value = "stylesheet"),
+          googleFont.setAttributeNode(googleFontHref),
+          googleFont.setAttributeNode(googleFontRel);
+        var css =
+            "@media only screen and (max-width: 768px) {.web-hosting-90-off-image-wrapper {position: absolute;} .notice_content {justify-content: center;} .web-hosting-90-off-image {opacity: 0.3;}} @media only screen and (min-width: 769px) {.notice_content {justify-content: space-between;} .web-hosting-90-off-image-wrapper {padding: 0 5%}} .content-wrapper {z-index: 5} .notice_content {display: flex; align-items: center;} * {-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;} .upgrade_button_red_sale{border: 0; border-radius: 3px; background-color: #ff123a !important; padding: 15px 55px !important; margin-left: 30px; font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 600; color: #ffffff;} .upgrade_button_red_sale:hover{color: #ffffff !important; background: #d10303 !important;}",
+          style = document.createElement("style"),
+          sheet = window.document.styleSheets[0];
+        style.styleSheet
+          ? (style.styleSheet.cssText = css)
+          : style.appendChild(document.createTextNode(css)),
+          document.getElementsByTagName("head")[0].appendChild(style),
+          document.getElementsByTagName("head")[0].appendChild(googleFont);
+        var button = document.getElementsByClassName("upgrade_button_red")[0],
+          link = button.parentElement;
+        link.setAttribute(
+          "href",
+          "https://www.hostinger.com/hosting-starter-offer?utm_source=000webhost&utm_medium=panel&utm_campaign=000-wp"
+        ),
+          (link.innerHTML =
+            '<button class="upgrade_button_red_sale">TRANSFER NOW</button>'),
+          (notification = notification[0]).setAttribute(
+            "style",
+            "padding-bottom: 10px; padding-top: 5px; background-image: url(https://cdn.000webhost.com/000webhost/promotions/springsale/mountains-neon-background.jpg); background-color: #000000; background-size: cover; background-repeat: no-repeat; color: #ffffff; border-color: #ff123a; border-width: 8px;"
+          ),
+          (notification.className = "notice notice-error is-dismissible"),
+          (hostingerLogo = hostingerLogo[0]).setAttribute(
+            "src",
+            "https://cdn.000webhost.com/000webhost/promotions/springsale/logo-hostinger-white.svg"
+          ),
+          hostingerLogo.setAttribute(
+            "style",
+            "float: none !important; height: auto; max-width: 100%; margin: 40px 20px 10px 30px;"
+          );
+        var h1Tag = notification.getElementsByTagName("H1")[0];
+        h1Tag.remove();
+        var paragraph = notification.getElementsByTagName("p")[0];
+        (paragraph.innerHTML =
+          "Fast & Secure Web Hosting. <br>Limited time offer: get an SSL certificate for FREE"),
+          paragraph.setAttribute(
+            "style",
+            'max-width: 600px; margin-left: 30px; font-family: "Open Sans", sans-serif; font-size: 16px; font-weight: 600;'
+          );
+        var list = notification.getElementsByTagName("UL")[0];
+        list.setAttribute("style", "max-width: 675px;");
+        for (
+          var listElements = list.getElementsByTagName("LI"), i = 0;
+          i < newList.length;
+          i++
+        )
+          listElements[i].setAttribute(
+            "style",
+            "color:#ffffff; list-style-type: disc; margin-left: 30px; font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 300; line-height: 1.5;"
+          ),
+            (listElements[i].innerHTML = newList[i]);
+        listElements[listElements.length - 1].remove();
+        var org_html = mainContent.innerHTML,
+          new_html =
+            '<div class="content-wrapper">' +
+            mainContent.innerHTML +
+            '</div><div class="web-hosting-90-off-image-wrapper"><img class="web-hosting-90-off-image" src="https://cdn.000webhost.com/000webhost/promotions/springsale/web-hosting-90-off.png"></div>';
+        mainContent.innerHTML = new_html;
+        var saleImage = mainContent.getElementsByClassName(
+          "web-hosting-90-off-image"
+        )[0];
+      }
+    </script>
+  </body>
+  <!-- Copied from http://www.abpronto.com/wp-admin/install.php by Cyotek WebCopy 1.7.0.600, viernes, 13 de septiembre de 2019, 7:42:21 -->
 </html>
